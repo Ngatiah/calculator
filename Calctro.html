@@ -1,80 +1,46 @@
 <!DOCTYPE html>
-<html lan="en">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Calculator using HTML, CSS and JavaScript</title>
-    <link rel="stylesheet" href="Calctro.css">
+    <meta http-equiv="content-type" content="text.html"; charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1.0">
+    <title>Calcatro</title>
+    <link rel="stylesheet" href="Calctro.css" media="all" />
 </head>
 <body>
-
-<table id="calculator">
-
-    <tr>
-<td> <input aria-colspan="2" class="display-box" type="text" id="result" disabled></td>
-
-<td> <input type="button" value="C" onclick="clearScreen()" id="btn"></td>
-
-    </tr>
-
-
-    <tr>
-<td> <input type="button" value="1" onclick="display('1')"></td>
-<td> <input type="button" value="2" onclick="display('2')"></td>
-<td> <input type="button" value="3" onclick="display('3')"></td>
-<td> <input type="button" value="/" onclick="display('/')"></td>
-
-    </tr>
-
-
-    <tr>
-
-        <td> <input type="button" value="4" onclick="display('4')"></td>
-        <td> <input type="button" value="5" onclick="display('5')"></td>
-        <td> <input type="button" value="6" onclick="display('6')"></td>
-        <td> <input type="button" value="-" onclick="display('-')"></td>
-
-    </tr>
-
-
-    <tr>
-
-        <td> <input type="button" value="7" onclick="display('7')"></td>
-        <td> <input type="button" value="8" onclick="display('8')"></td>
-        <td> <input type="button" value="9" onclick="display('9')"></td>
-        <td> <input type="button" value="+" onclick="display('+')"></td>
-
-
-    </tr>
-
-
-    <tr>
-
-        <td> <input type="button" value="." onclick="display('.')"></td>
-        <td> <input type="button" value="0" onclick="display('0')"></td>
-
-        <td> <input type="button" value="=" onclick="calculate()" id="btn"> </td>
-        <td> <input type="button" value="*" onclick="display('*')"></td>
-
-
-    </tr>
-    
-
-
-
-
-
-
-
-
-
-
-
-</table>
-    
-
-<script type="text/javascript" src="script.js"></script> 
-
-
+    <section>
+        <div class="display">
+            <input type="text" placeholder="0" readonly="" id="input-field" name="input-field"/>
+        </div>
+        <div class="buttonContainer">
+            <div id="clear"><span>AC</span></div>
+            <div id="mc"><span>C</span></div>
+            <div id="percentage"><span>%</span></div>
+            <div id="divide"><span>/</span></div>
+        </div>
+        <div class="buttonContainer">
+            <div id="seven">7</div>
+            <div id="eight">8</div>
+            <div id="nine">9</div>
+            <div id="multiply">x</div>
+        </div>
+        <div class="buttonContainer">
+            <div id="four">4</div>
+            <div id="five">5</div>
+            <div id="six">6</div>
+            <div id="minus">-</div>
+        </div>
+        <div class="buttonContainer">
+            <div id="one">1</div>
+            <div id="two">2</div>
+            <div id="three">3</div>
+            <div id="add">+</div>
+        </div>
+        <div class="buttonContainer lastButtons">
+            <div id="zero">0</div>
+            <div id="dot">.</div>
+            <div id="equalto">=</div>
+        </div>
+    </section>
 </body>
+<script defer src="calculator.js"></script>
 </html>

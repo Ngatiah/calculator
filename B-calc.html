@@ -1,42 +1,46 @@
 <!DOCTYPE html>
-<html lan="en">
-
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="B-calc.css">
+    <meta http-equiv="content-type" content="text.html"; charset="UTF-8" />
+    <meta content="width=device-width, initial-scale=1.0">
+    <title>Calcatro</title>
+    <link rel="stylesheet" href="B-calc.css" media="all" />
 </head>
 <body>
-   <div class="calculator">
-    <input type="text" id="result" readonly>
-    <div class="buttons">
-<button class="clear">C</button>
-<button class="operator">/</button>
-<button class="operator">*</button>
-<button class="operator">-</button>
-<button class="number">7</button>
-<button class="number">8</button>
-<button class="number">9</button>
-<button class="operator">+</button>
-<button class="number">4</button>
-<button class="number">5</button>
-<button class="number">6</button>
-<button class="equals">=</button>
-<button class="number">3</button>
-<button class="number">2</button>
-<button class="number">1</button>
-<button class="number">0</button>
-<button class="decimal">.</button>
-
-
-
-    </div>
-
-   </div>
-
-
+    <section>
+        <div class="display">
+            <input type="text" placeholder="0"  readonly="" id="input-field" name="input-field" />
+        </div>
+        <div class="buttonContainer">
+            <div id="clear"><span>AC</span></div>
+            <div id="mc"><span>C</span></div>
+            <div id="percentage"><span>%</span></div>
+            <div id="divide"><span>/</span></div>
+        </div>
+        <div class="buttonContainer">
+            <div id="seven">7</div>
+            <div id="eight">8</div>
+            <div id="nine">9</div>
+            <div id="multiply">x</div>
+        </div>
+        <div class="buttonContainer">
+            <div id="four">4</div>
+            <div id="five">5</div>
+            <div id="six">6</div>
+            <div id="minus">-</div>
+        </div>
+        <div class="buttonContainer">
+            <div id="one">1</div>
+            <div id="two">2</div>
+            <div id="three">3</div>
+            <div id="add">+</div>
+        </div>
+        <div class="buttonContainer lastButtons">
+            <div id="zero">0</div>
+            <div id="dot">.</div>
+            <div id="equalto">=</div>
+        </div>
+    </section>
 </body>
-<script src="B-calc.js">
-    
-</script>
+<script defer src="calculator.js"></script>
 </html>

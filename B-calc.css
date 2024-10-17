@@ -1,0 +1,81 @@
+section {
+    background: #f0f4f8; /* Light blue background */
+    padding: 30px;
+    margin: 5px;
+    box-shadow:  6px 6px 10px rgba(0, 0, 0, 0.15), -5px -5px 6px rgba(255, 255, 255);
+}
+body{
+    display: flex;
+    justify-content: center;
+    background: #e3edf7; /* Soft blue-gray background */
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.buttonContainer{
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    border: 3px;
+    width: 100%;
+    justify-content: center;
+}
+.buttonContainer > div {
+    cursor: pointer;
+}
+#input-field{
+    background-color: #eef2f7; /* Light blue-gray */
+    margin-left: 5px;
+    width: 275px;
+    color: #333; /* Darker text color for contrast */
+    display: flex;
+    border-radius: 5px;
+    border: 1px;
+    font-size: 30px;
+    height: 50px;
+    justify-content: center;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+    box-shadow: -10px -10px -10px rgba(255, 255, 255);
+    flex-direction: column;
+    margin-bottom: 30px;
+    text-align: right;
+    box-shadow:  5px 5px 8px rgba(0, 0, 0, 0.15), -5px -5px 6px #ffff;
+    
+}
+.buttonContainer > div{
+    display: flex;
+    border-radius: 5px;
+    height: 4rem;
+    width: 60px;
+    background-color: #f8f9fa; /* Light gray for buttons */
+    margin: 7px;
+    font-size: 20px;
+    font-weight: 100;
+    align-items: center;
+    justify-content: center;
+    box-shadow:  5px 5px 8px rgba(0, 0, 0, 0.15), -5px -5px 6px #ffff;
+    color: #0056b3; /* Dark blue text color */
+}
+
+#clear, #mc {
+    font-size: larger;
+    font-weight: 500;
+    color: #d9534f; /* Red for clear buttons */
+}
+
+#zero {
+    display: flex;
+    justify-content: center;
+    width: 8.5rem;
+}
+
+#equalto {
+    background-color: #0056b3; /* Dark blue */
+    color: #fff; /* White text for contrast */
+}
+
+#percentage, #divide, #multiply, #minus, #add {
+    background-color: #f0f4f8; /* Light blue-gray */
+    color: #333; /* Darker for symbols */
+}
+

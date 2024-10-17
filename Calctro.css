@@ -1,0 +1,71 @@
+section {
+    background: #dedede;
+    padding: 30px;
+    margin: 5px;
+    box-shadow:  6px 6px 10px rgba(0, 0, 0, 0.15), -5px -5px 6px rgba(255, 255, 255);
+}
+body{
+    display: flex;
+    justify-content: center;
+    background: #dedede;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.buttonContainer{
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    border: 3px;
+    width: 100%;
+    justify-content: center;
+}
+.buttonContainer > div {
+    cursor: pointer;
+}
+#input-field{
+    background-color: #dedede;
+    margin-left: 5px;
+    width: 275px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    border-radius: 5px;
+    border: 1px;
+    font-size: 30px;
+    height: 50px;
+    justify-content: center;
+    box-shadow: 10px 10px 10px rgb(58, 58, 58);
+    box-shadow: -10px -10px -10px rgb(255, 255, 255);
+    flex-direction: column;
+    margin-bottom: 30px;
+    text-align: right;
+    box-shadow:  5px 5px 8px rgba(0, 0, 0, 0.15), -5px -5px 6px #ffff;
+    
+}
+.buttonContainer > div{
+    display: flex;
+    border-radius: 5px;
+    height: 4rem;
+    width: 60px;
+    background-color: #dedede;
+    margin: 7px;
+    font-size: 20px;
+    font-weight: 100;
+    align-items: center;
+    justify-content: center;
+    box-shadow:  5px 5px 8px rgba(0, 0, 0, 0.15), -5px -5px 6px #ffff;
+}
+
+#clear{
+    font-size: larger;
+    font-weight: 500;
+}
+#mc{
+    font-size: larger;
+    font-weight: 500;
+}
+#zero{
+    display: flex;
+    justify-content: center;
+    width: 8.5rem;
+}
